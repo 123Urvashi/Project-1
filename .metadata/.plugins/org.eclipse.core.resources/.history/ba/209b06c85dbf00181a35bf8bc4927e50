@@ -1,0 +1,21 @@
+package com.niit.ecommerce.dao;
+
+import java.util.List;
+
+//import com.niit.ecommerce.model.Category;
+import com.niit.ecommerce.model.Product;
+
+public interface ProductDao {
+	Product saveProduct(Product product);
+	Product getProduct(int id);
+	
+	List<Product> getAllProducts();
+	//List<Category> getAllCategories();
+	
+	public List<Product>list();
+		
+	public void updateProduct(Product product);
+	public void deleteProduct(int id);
+	public Product getProductById(int id);
+	
+}

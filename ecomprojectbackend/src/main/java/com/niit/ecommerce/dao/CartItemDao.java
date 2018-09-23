@@ -1,0 +1,13 @@
+package com.niit.ecommerce.dao;
+
+import java.util.List;
+
+import com.niit.ecommerce.model.CartItem;
+import com.niit.ecommerce.model.User;
+
+public interface CartItemDao {
+void addToCart(CartItem cartItem);
+User getUser(String email);
+List<CartItem> getCart(String email);//select * from cartitem where user_email=?
+void removeCartItem(int cartItemId);
+}

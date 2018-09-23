@@ -1,0 +1,4 @@
+com\niit\ecommerce\model\FeedBackForm.class
+com\niit\ecommerce\model\SignIn.class
+com\niit\ecommerce\configuration\HibernateConfig.class
+com\niit\ecommerce\model\Register.class

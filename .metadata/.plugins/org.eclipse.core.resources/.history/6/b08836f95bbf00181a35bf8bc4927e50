@@ -1,0 +1,5 @@
+package com.niit.ecommerce.model;
+
+public class ShippingAddress {
+
+}
